@@ -19,11 +19,13 @@
 
 .display{
     height: 100px;
-    width: 350px;
+    width: 360px;
     border: 1px solid black;
     font-size: 40px;
     text-align: end;
 }
+
+
 
 #seven, #eight, #nine, #add, #four, #five, #six, #subtract, #one, #two, #three, #multiply, #zero, #btnDot, #equals, #divide{
     height: 70px;
@@ -38,7 +40,7 @@
 }
 
 
-#clear{
+#clear, #backspace{
     height: 70px;
     width: 100px;
     border: 1px solid black;
