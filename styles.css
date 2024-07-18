@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    height: 600px;
+    width: 300px;
+    border: 2px solid black;
+    margin: auto;
+    gap: 30px;
+}
+
+.display{
+    height: 100px;
+    width: 350px;
+    border: 1px solid black;
+    font-size: 40px;
+    text-align: end;
+}
+
+#seven, #eight, #nine, #add, #four, #five, #six, #subtract, #one, #two, #three, #multiply, #zero, #btnDot, #equals, #divide{
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
+    font-size: 30px;
+}
+
+.btnRow{
+    display: flex;
+    gap: 25px;
+}
+
+
+#clear{
+    height: 70px;
+    width: 100px;
+    border: 1px solid black;
+    font-size: 30px;
+}
